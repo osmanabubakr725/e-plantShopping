@@ -250,3 +250,12 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+  .cart { position: relative; }
+.cart_quantity_count {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: white;
+}
